@@ -72,7 +72,6 @@ router.post('/addstudent', function(req, res){
         console.log('Unable to connect to the Server:', err);
       } else {
         console.log('Connected to Server');
- 
         // Get the documents collection
         var collection = db.collection('students');
  
